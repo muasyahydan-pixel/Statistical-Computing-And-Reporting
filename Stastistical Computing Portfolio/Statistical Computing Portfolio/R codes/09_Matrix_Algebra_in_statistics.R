@@ -1,0 +1,11 @@
+#Topic 9:Matrix algebra in statistics
+A <- matrix(c(1,3,2,4), nrow=2)
+B <- matrix(c(2,1,0,2), nrow=2)
+A %*% B; t(A); det(A); solve(A)
+A <- matrix(c(4, 2, 1, 2, 5, 3, 1, 3, 6), nrow = 3)
+A_df <- as.data.frame(A)
+colnames(A_df) <- c("Col_1", "Col_2", "Col_3")
+A_df$Determinant <- det(A)
+A_df$Trace <- sum(diag(A))
+write.csv(A_df, "Topic_09_Matrix_Algebra.csv", row.names = FALSE)
+heatmap(A, Rowv = NA, Colv = NA, main = "Topic 9: Matrix Heatmap")

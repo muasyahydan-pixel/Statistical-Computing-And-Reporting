@@ -1,0 +1,5 @@
+Metric,Value
+P(X = 6),0.191638983
+P(X <= 6),0.608009812
+Mean (n*p),6
+Variance (n*p*(1-p)),4.2

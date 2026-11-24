@@ -1,0 +1,2 @@
+Test_Statistic,Critical_Value_Lower,Critical_Value_Upper,Two_Tailed_P_Value,Decision
+2.3,-1.96,1.96,0.02145,Reject H0
